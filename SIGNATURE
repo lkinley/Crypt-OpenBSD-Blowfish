@@ -1,0 +1,37 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.78.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+SHA1 4ae2eee9960a561d94fe4e41174703e669cadd07 Blowfish.xs
+SHA1 6644d55c52916e2303e270def45fac8c7ae220ea Changes
+SHA1 a109ca65f6ec07ea540c208d76393b90c01e188a MANIFEST
+SHA1 7f35aec9f081cd000d1b862d84668b731867e77a Makefile.PL
+SHA1 321e81f605d0a98728611d8d6ff3453cf62cfe22 README
+SHA1 e24917ab816bd283a2b9fa56316c5d7a84b37dd7 lib/Crypt/OpenBSD/Blowfish.pm
+SHA1 2adb5cbc9065eea047f857161ca99f611a422216 ppport.h
+SHA1 2916b5253a303661dac4537b2874043fe157dfc9 src/blf.h
+SHA1 35515aba85dadb0795bcd598638a734639f6f9ef src/blowfish.c
+SHA1 e0a8acefbaa01035eb77903c60b124ae30ce5c61 t/Crypt-OpenBSD-Blowfish.t
+-----BEGIN PGP SIGNATURE-----
+Comment: GPGTools - http://gpgtools.org
+
+iQEcBAEBCAAGBQJVZi8gAAoJEC3vSbXAsR2+QAYH/3Cqm8/KcgJlKGb6pGN3Y7rp
+UZ7ILZ8ZMZd+bB44GdfFldz5r0VM06A5+I8bf+oZkS3j/XHBCYDffZMU9agf3HB0
+VyhdqyLi/VN5Ay1s/CgYjcBmkcl4/pJZI6h4nVpC8zKOYL1SFEYSrQ2SllDPXoEX
+c5BvrF0ORun6mizAJzjFRsFbbOnogd0I3K6A/GYb6g6lBsRsAcGAOGNBdkPs+5dA
+r/H4o3rJzYd20yDja9SMgoWofgjxJqc4A8rmmnLkFqpRTDawa4ko9Asl7qBqsiAX
+tH3deDeHMpZfcs8MdcTUtezdSjZNo4q5Go46wCrx5QojHk6NlkDYIN8wvD7C1bk=
+=6Jp/
+-----END PGP SIGNATURE-----
